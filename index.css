@@ -1,0 +1,127 @@
+body {
+ margin: 0;
+ padding: 0;  
+}
+
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-logo {
+    width: 50px;
+    height: 42px;
+}
+
+#footer {
+    background-color: black;
+    width: 100vw;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    background-color: black;
+    width: 81px;
+    height: 68px;
+}
+
+#footer-section {
+    width: 1200px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    width: 167px;
+    height: 44px;
+}
+
+#intro-section {
+    width: 1200px;
+    margin-top: 120px;
+}
+
+ #intro-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87.77px; 
+    text-align: center;
+    color: #303030
+ }
+
+ #sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #ababab;
+    text-align: center;
+ }
+
+ #intro {
+    display: flex;
+    justify-content: center;    
+    gap: 21px;
+}
+
+ .intro-image {
+    width: 284px;
+    height: 400px;
+
+ }
+
+ #gol-div {
+    width: 1,198px;
+    gap: 150px;
+ }
+
+ #roadmap {
+    width: 358px;
+
+    gap: 80px;
+ }
+
+ #d1-d6 {
+    width: 303px;
+
+    gap: 150px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+#maps {
+    width: 303px;
+    height: 559px;
+    gap: 16px;
+}
+
+ #title {
+    width: 198px;
+    height: 29px;
+    font-weight: 700px;
+    color: #ababab;
+ }
+
+ #text {
+    width: 358px;
+    height: 118px;
+    font-size:48px;
+    font-weight: 700;
+    color: #303030;
+ }
+
+ #hureh-zam {
+    width: 692px;
+    height: 845px;
+ }
+
+ #map {
+    width: 692px;
+    height: 845px;
+}
