@@ -73,39 +73,27 @@ body {
  .intro-image {
     width: 284px;
     height: 400px;
-
  }
 
  #gol-div {
-    width: 1,198px;
+   display: flex;
+    width: 1140px;
     gap: 150px;
+    margin-top: 150px;
+
  }
 
  #roadmap {
-    width: 358px;
-
-    gap: 80px;
+   width: 358px;
+   gap: 80px;
  }
-
- #d1-d6 {
-    width: 303px;
-
-    gap: 150px;
-    display: flex;
-    justify-content: space-between;
- }
-
-#maps {
-    width: 303px;
-    height: 559px;
-    gap: 16px;
-}
 
  #title {
     width: 198px;
     height: 29px;
     font-weight: 700px;
     color: #ababab;
+    margin: 0px;
  }
 
  #text {
@@ -116,12 +104,178 @@ body {
     color: #303030;
  }
 
- #hureh-zam {
-    width: 692px;
-    height: 845px;
- }
+ #d1-d6 {
+   width: 303px;
+   gap: 16px;
+   display: flex;
+  
+}
 
- #map {
-    width: 692px;
-    height: 845px;
+.d1-d6 {
+   width: 56px;
+   border-radius: 40px;
+   display: flex;
+   justify-content: space-between;
+   gap: 16px;
+}
+#ireh-butsah {
+   padding: 12px;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   flex-direction: column;
+}
+
+.directions{
+   border-radius: 50%;
+   background-color: #1D1F24;
+   height: 56px;
+   width: 56px;
+   color: #16A94A;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.tailbar {
+
+   font-weight: 400px;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #777777;
+
+}
+
+#map {
+   width: 692px;
+   height: 845px;
+
+}
+
+#maps {
+   width: 692px;
+   height: 845px;
+}
+
+#dood-div {
+   width: 789px;
+   margin: 200px;
+}
+
+#pricing-title {
+font-weight: 107px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #ababab;
+    text-align: center;
+}
+#agency-title {
+    font-size: 48px;
+    line-height: 58.51px;
+    color: #303030;
+    text-align: center;
+}
+
+h2{
+   margin: 0;
+}
+.line{
+   height: 40px;
+   border-left: 1px dotted black;
+   display: flex;
+   margin-left: 27px;
+}
+
+#price {
+ display: flex;
+ justify-content: center;
+ width: 790px;
+ gap: 15px;
+}
+.starter-pack {
+   width: 280px;
+   border-radius: 24px;
+}
+
+.luxury-pack {
+   border:2px solid #18BA51;
+   width: 280px;
+   border-radius: 24px;
+}
+.starter {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29.26px; 
+   text-align: center;
+   color: #303030
+}
+
+#starter{
+   width: 155px;
+   gap: 28px;
+   padding: 15px;
+   color: #303030;
+}
+
+#luxury {
+   width: 155px;
+   gap: 28px;
+   padding: 15px;
+   color: #303030;
+}
+
+.price {
+   weight: 69px;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #777777;
+}
+
+.starter-une {
+   line-height: 39.01px; 
+   padding-left: 120px;
+   color: #303030
+}
+
+.luxury-une {
+   padding: 50px;
+   margin-left: 60px;
+}
+
+#tugsgul-div {
+   background-color: #171717;
+   width: 1,440px ;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#ready {
+   height: 93px;
+}
+
+#are-you-ready {
+   height: 39px;
+}
+#are-you {
+   display: flex;
+   justify-content: center;
+   color: #FFFFFF;
+}
+
+#order-now {
+   background-color: #18BA51;
+   border:4px  solid #18BA51;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   width: 110px;
+   margin-left: 50px;
+}
+
+#order {
+   font-size: 16px;
+   line-height: 19.5px;
+   color: #FFFFFF;
 }
